@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+@import "tailwindcss";
+
+@layer components {
+  .pixel-border {
+    box-shadow: 
+      0 -4px 0 0 #000,
+      0 4px 0 0 #000,
+      -4px 0 0 #000,
+      4px 0 0 #000;
+  }
+  
+  .retro-grid {
+    background-image: radial-gradient(circle, #00000010 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+/* Material Symbols settings */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
