@@ -15,7 +15,7 @@ const Sidebar = () => {
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb8Eho5zGXVxDzuPVd4CF3qYXRDFdHoZzLK8O_NPFHxUJU8y8RZjAQV9qrJXZf_XZhGOjMprFtlvzLv4AuWGRLjQz2swgxDfC4lrikBVlwWN0t9UUJ5WCXKxYXEmcJgi3gfmU_92JXyIPO6bGhGaGZ3jNBp20huz6e7KuYBRCke3up1hqYNqpc7kFxXzUetHh4aYioqV7ompX5R-yUcbskhHkpmUIAA9XeLoTT0bpooUAb5e1kAAW0jGDenwxjdFqQECdSn4LfId0"
             />
           </div>
-          <h1 className="text-slate-900 text-xl font-bold uppercase tracking-tight text-center">ENTRENADOR LUIS</h1>
+          <h1 className="text-slate-900 text-xl font-bold uppercase tracking-tight text-center">ENTRENADOR RED</h1>
           <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mt-1 text-center">PUEBLO PALETA, KANTO</p>
         </div>
         

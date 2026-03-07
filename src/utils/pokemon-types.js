@@ -18,6 +18,26 @@ export const typeColors = {
   BICHO: 'bg-lime-600 text-white',
 };
 
+export const TYPE_TRANSLATIONS = {
+  grass: 'PLANTA',
+  poison: 'VENENO',
+  fire: 'FUEGO',
+  water: 'AGUA',
+  electric: 'ELÉCTRICO',
+  normal: 'NORMAL',
+  fairy: 'HADA',
+  ground: 'TIERRA',
+  fighting: 'LUCHA',
+  psychic: 'PSÍQUICO',
+  rock: 'ROCA',
+  ghost: 'FANTASMA',
+  ice: 'HIELO',
+  dragon: 'DRAGÓN',
+  steel: 'ACERO',
+  flying: 'VOLADOR',
+  bug: 'BICHO',
+};
+
 export const backgroundColors = {
   PLANTA: 'bg-green-200',
   FUEGO: 'bg-orange-200',

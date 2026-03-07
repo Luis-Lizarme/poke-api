@@ -1,27 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import PokemonCard from '../components/PokemonCard';
-import { typeColors } from '../utils/pokemon-types';
-
-const TYPE_TRANSLATIONS = {
-  grass: 'PLANTA',
-  poison: 'VENENO',
-  fire: 'FUEGO',
-  water: 'AGUA',
-  electric: 'ELÉCTRICO',
-  normal: 'NORMAL',
-  fairy: 'HADA',
-  ground: 'TIERRA',
-  fighting: 'LUCHA',
-  psychic: 'PSÍQUICO',
-  rock: 'ROCA',
-  ghost: 'FANTASMA',
-  ice: 'HIELO',
-  dragon: 'DRAGÓN',
-  steel: 'ACERO',
-  flying: 'VOLADOR',
-  bug: 'BICHO',
-};
+import { typeColors, TYPE_TRANSLATIONS } from '../utils/pokemon-types';
 
 const REGION_CONFIG = {
   kanto: { offset: 0, limit: 151, label: 'KANTO' },
@@ -146,7 +126,7 @@ const Home = () => {
             />
           </label>
         </div>
-        <div className="flex gap-2 overflow-x-auto pb-4 xl:pb-0 scrollbar-hide flex-wrap justify-start xl:justify-end xl:w-2/3">
+        <div className="flex gap-2 pb-4 xl:pb-0 flex-wrap justify-start xl:justify-end xl:w-2/3">
           {Object.keys(typeColors).map((type) => (
             <button 
               key={type}
