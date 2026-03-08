@@ -2,7 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layouts/Layout";
 import Home from "../pages/Home";
 import PokemonDetail from "../pages/PokemonDetail";
-import Placeholder from "../components/Placeholder";
+import Favorites from "../pages/Favorites";
+import Badges from "../pages/Badges";
+import Items from "../pages/Items";
 
 export const router = createBrowserRouter([
   {
@@ -19,15 +21,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "favorites",
-        element: <Placeholder title="Favoritos" />,
+        element: <Favorites />,
       },
       {
         path: "badges",
-        element: <Placeholder title="Medallas" />,
+        element: <Badges />,
       },
       {
         path: "items",
-        element: <Placeholder title="Mochila" />,
+        element: <Items />,
       },
     ],
   },

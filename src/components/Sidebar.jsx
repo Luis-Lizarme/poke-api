@@ -1,9 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Sidebar = () => {
+  const location = useLocation();
+  const isDetailPage = location.pathname.includes('/pokemon/');
+
   return (
-    <aside className="w-full md:w-80 flex flex-col gap-6 sticky top-24 h-fit">
+    <aside className={`w-full md:w-80 flex-col gap-6 sticky top-24 h-fit ${isDetailPage ? 'hidden md:flex' : 'flex'}`}>
       <div className="bg-slate-200 dark:bg-slate-800 border-4 border-slate-900 rounded-xl flex flex-col overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
         
         {/* Profile Section */}
